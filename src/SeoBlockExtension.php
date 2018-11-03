@@ -1,21 +1,24 @@
 <?php namespace Anomaly\SeoBlockExtension;
 
+use Anomaly\BlocksModule\Block\BlockExtension;
 use Anomaly\Streams\Platform\Addon\Extension\Extension;
 
-class SeoBlockExtension extends Extension
+/**
+ * Class SeoBlockExtension
+ *
+ * @link   http://pyrocms.com/
+ * @author PyroCMS, Inc. <support@pyrocms.com>
+ * @author Ryan Thompson <ryan@pyrocms.com>
+ */
+class SeoBlockExtension extends BlockExtension
 {
 
     /**
-     * This extension provides...
-     *
-     * This should contain the dot namespace
-     * of the addon this extension is for followed
-     * by the purpose.variation of the extension.
-     *
-     * For example anomaly.module.store::gateway.stripe
+     * This extension provides an SEO
+     * block for the blocks module.
      *
      * @var null|string
      */
-    protected $provides = null;
+    protected $provides = 'anomaly.module.blocks::block.seo';
 
 }
