@@ -1,0 +1,9 @@
+{
+    "name": "anomaly/seo_block-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\SeoBlockExtension\\": "src/"
+        }
+    }
+}
